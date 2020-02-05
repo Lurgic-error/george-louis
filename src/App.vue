@@ -1,12 +1,25 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+
+    <section-hero></section-hero>
+    <section-about></section-about>
+
   </div>
 </template>
+
+<script>
+import SectionHero from '@/containers/SectionHero.vue';
+import SectionAbout from '@/containers/SectionAbout.vue';
+
+export default {
+  name:'app',
+  components:{
+    SectionHero,
+    SectionAbout
+  }
+}
+</script>
+
 
 <style lang="scss">
 
