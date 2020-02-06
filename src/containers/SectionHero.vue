@@ -1,7 +1,7 @@
 <template>
   <div class="section-hero">
     <div class="hero-content">
-      <h4 class="hero-title">Making Software since 199*</h4>
+      <h4 class="hero-title">Making Software since 199* and still going </h4>
       <p class="text">Lorem ipsum dolor sit amet consectetur,
         adipisicing elit. Culpa ea corporis non quasi architecto necessitatibus tempora incidunt dignissimos sapiente
         at,
@@ -31,7 +31,7 @@
     background-size: cover;
     background-blend-mode: darken;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.952);
 
@@ -45,7 +45,7 @@
 
   .hero-content {
     flex-basis: 60%;
-    padding: 2rem;
+    padding: 2rem 4rem;
     color: white;
 
     @include respond(phone) {
@@ -74,6 +74,7 @@
 
   .text,
   .section-text {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.952);
     @include respond(phone) {
       text-align: left;
       text-justify: auto;

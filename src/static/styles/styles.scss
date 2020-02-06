@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 @import "mixins";
+
+
+/**
+==============================================
+                VARIABLES
+==============================================
+*/
+$white: #ffffff;
+$gray:#bbbbbb;
+$dark-gray: #313131;
+$black:#111111;
 
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -11,7 +24,7 @@
 
 html,
 body,
-#app{
+#app {
     height: 100%;
     box-sizing: border-box;
 }
@@ -24,63 +37,113 @@ h3,
 h4,
 h5,
 h6,
-p{
+p {
     padding: 0;
     margin: 0;
 }
 
-.section-title{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section-title {
     font-size: 2.4rem;
     font-weight: 500;
     margin-bottom: .75rem;
 }
 
 .text,
-.section-text{
+.section-text {
     font-size: 1.2rem;
     line-height: 1.6;
 
 }
 
-.txt-light{
+.txt-light {
     color: #ffffff;
 }
 
-.text-dark{
-    color: #161616;
+.text-dark {
+    color: #111;
 }
 
+
+.bg-dark{
+    background-color: #111;
+}
+
+.bg-gray{
+    background-color: #bbb;
+}
+
+.bg-gray-dark{
+    background-color: #313131;
+}
+
+.bg-white{
+    background-color: #fff;
+}
 /**
             ui
 */
 
-.app-btn{
-    padding: .25rem .75rem;
-    background:none;
+.app-btn {
+    padding: .75rem 1.25rem;
+    background: none;
     color: white;
-    border: 1px solid white;
-    
+    border:none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 1.75px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    transition: all .5s linear;
 }
 
-.btn-cta{
+.btn-cta {
     font-weight: 600;
     margin-top: 1.25rem;
-    border:1px solid #d5dddf;
-    &:hover{
-      background-color: #6b8e4e;
-      color: #ffffff;
-      border: 1px solid #6b8e4e;
+    background-color: #fff;
+    color: $dark-gray;
+    transition: all .5s linear;
+
+    &:hover {
+        background-color: $dark-gray;
+        color: $white;
+        border:none;
     }
-  }
+}
 
-.btn-cta-dark{
+.btn-cta-dark {
     margin-top: 1.25rem;
-    background-color: #6b8e4e;
-    border-color: #6b8e4e;
-    color:#d5dddf ;
+    background-color: $dark-gray;
+    border-color: $dark-gray;
+    color: $white;
 
-    &:hover{
-        background-color: #1b2727;
-        color: #d5dddf;
+    &:hover {
+        background-color: $black;
+        color: $white;
+    }
+}
+
+.btn-cta-light{
+    margin-top: 1.25rem;
+    background-color: $white;
+    border-color: $white;
+    color: $dark-gray;
+
+    &:hover {
+        background-color: $white;
+        color: $dark-gray;
     }
 }
