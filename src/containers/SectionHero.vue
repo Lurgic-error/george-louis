@@ -36,9 +36,11 @@
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.952);
 
     @include respond(phone) {
+      height: 90%;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 2rem;
     }
 
   }
@@ -50,6 +52,8 @@
 
     @include respond(phone) {
       flex: 1;
+      padding: 0;
+      // margin: 2rem;
     }
   }
 
@@ -61,7 +65,8 @@
     color: #6b8e4e;
 
     @include respond(phone) {
-      font-size: 2.4rem;
+      font-size: 2rem;
+      line-height: 1.2;
     }
   }
 
@@ -69,15 +74,23 @@
   .section-title {
     font-size: 2rem;
     font-weight: 600;
-    text-transform: capitalize
+    text-transform: capitalize;
+
+    @include respond(phone){
+      font-size: 1.2rem;
+    }
   }
 
   .text,
   .section-text {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.952);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.952);
+    font-size: 1.6rem;
     @include respond(phone) {
+      font-size: 1.2rem;
       text-align: left;
       text-justify: auto;
+      text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.952);
+      line-height: 1.2;
     }
   }
 </style>

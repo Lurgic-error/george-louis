@@ -1,149 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import "variables";
+@import "base";
 @import "mixins";
+@import "buttons";
 
 
-/**
-==============================================
-                VARIABLES
-==============================================
-*/
-$white: #ffffff;
-$gray:#bbbbbb;
-$dark-gray: #313131;
-$black:#111111;
 
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+.section{
+    padding: 2rem 10rem;
+
+    @include respond(phone){
+        padding: 2rem;
+    }
 }
 
 
-html,
-body,
-#app {
-    height: 100%;
-    box-sizing: border-box;
-}
-
-ul,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    padding: 0;
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Playfair Display', serif;
-}
-
-
-p {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.section-title {
-    font-size: 2.4rem;
-    font-weight: 500;
-    margin-bottom: .75rem;
-}
-
-.text,
 .section-text {
-    font-size: 1.2rem;
-    line-height: 1.6;
 
-}
-
-.txt-light {
-    color: #ffffff;
-}
-
-.text-dark {
-    color: #111;
-}
-
-
-.bg-dark{
-    background-color: #111;
-}
-
-.bg-gray{
-    background-color: #bbb;
-}
-
-.bg-gray-dark{
-    background-color: #313131;
-}
-
-.bg-white{
-    background-color: #fff;
-}
-/**
-            ui
-*/
-
-.app-btn {
-    padding: .75rem 1.25rem;
-    background: none;
-    color: white;
-    border:none;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    word-spacing: 1.75px;
-    letter-spacing: 2px;
-    font-size: 1.2rem;
-    transition: all .5s linear;
-}
-
-.btn-cta {
-    font-weight: 600;
-    margin-top: 1.25rem;
-    background-color: #fff;
-    color: $dark-gray;
-    transition: all .5s linear;
-
-    &:hover {
-        background-color: $dark-gray;
-        color: $white;
-        border:none;
-    }
-}
-
-.btn-cta-dark {
-    margin-top: 1.25rem;
-    background-color: $dark-gray;
-    border-color: $dark-gray;
-    color: $white;
-
-    &:hover {
-        background-color: $black;
-        color: $white;
-    }
-}
-
-.btn-cta-light{
-    margin-top: 1.25rem;
-    background-color: $white;
-    border-color: $white;
-    color: $dark-gray;
-
-    &:hover {
-        background-color: $white;
-        color: $dark-gray;
+    font-size: 1.6rem;
+    @include respond(phone) {
+      font-size: 1.2rem;
+      text-align: left;
+      text-justify: auto;
+      line-height: 1.2;
     }
 }

@@ -1,0 +1,55 @@
+
+.app-btn {
+    padding: .75rem 1.25rem;
+    background: none;
+    color: white;
+    border:none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 1.75px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    transition: all .5s linear;
+
+    @include respond(phone){
+        padding: .5rem 1rem;
+    }
+}
+
+.btn-cta {
+    font-weight: 600;
+    margin-top: 1.25rem;
+    background-color: #fff;
+    color: $dark-gray;
+    transition: all .5s linear;
+
+    &:hover {
+        background-color: $dark-gray;
+        color: $white;
+        border:none;
+    }
+}
+
+.btn-cta-dark {
+    margin-top: 1.25rem;
+    background-color: $dark-gray;
+    border-color: $dark-gray;
+    color: $white;
+
+    &:hover {
+        background-color: $black;
+        color: $white;
+    }
+}
+
+.btn-cta-light{
+    margin-top: 1.25rem;
+    background-color: $white;
+    border-color: $white;
+    color: $dark-gray;
+
+    &:hover {
+        background-color: $white;
+        color: $dark-gray;
+    }
+}

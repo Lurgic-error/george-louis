@@ -21,7 +21,7 @@
               </div>
               <div class="col-md-4">
                   <div class="card">
-                    <div class="row">
+                    <div class="row d-flex justify-content-between">
                         <div class="col-2">
                             <b-icon-tools class="app-icon-lg"></b-icon-tools>
                         </div>
@@ -37,7 +37,7 @@
               </div>
               <div class="col-md-4">
                   <div class="card">
-                    <div class="row">
+                    <div class="row d-flex justify-content-between">
                         <div class="col-2">
                             <b-icon-tools class="app-icon-lg"></b-icon-tools>
                         </div>
@@ -53,7 +53,7 @@
               </div>
               <div class="col-md-4 ">
                   <div class="card">
-                    <div class="row">
+                    <div class="row d-flex justify-content-between">
                         <div class="col-2">
                             <b-icon-tools class="app-icon-lg"></b-icon-tools>
                         </div>
@@ -72,7 +72,7 @@
           <div class="row">
               <div class="col-md-4">
                   <div class="card">
-                    <div class="row">
+                    <div class="row d-flex justify-content-between">
                         <div class="col-2">
                             <b-icon-tools class="app-icon-lg"></b-icon-tools>
                         </div>

@@ -1,0 +1,48 @@
+
+/**
+==============================================
+                VARIABLES
+==============================================
+*/
+$white: #ffffff;
+$gray:#bbbbbb;
+$dark-gray: #313131;
+$black:#111111;
+
+.section-title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: .75rem;
+}
+
+.text,
+.section-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+
+}
+
+.txt-light {
+    color: #ffffff;
+}
+
+.text-dark {
+    color: #111;
+}
+
+
+.bg-dark{
+    background-color: #111;
+}
+
+.bg-gray{
+    background-color: #bbb;
+}
+
+.bg-gray-dark{
+    background-color: #313131;
+}
+
+.bg-white{
+    background-color: #fff;
+}
