@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba8330fbcfe6ed45622d",
-    "url": "/css/app.49512358.css"
+    "revision": "a29093915fefcf0af03e",
+    "url": "/css/app.13831baf.css"
   },
   {
     "revision": "a273f8c7b3ce0664b4cb",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/hero-img.5d723e92.jpg"
   },
   {
-    "revision": "3b771a009f9f13383440dbf2314e907f",
+    "revision": "cab2a051aae5636726c6dbd4be792253",
+    "url": "/img/saharaventures.cab2a051.jpg"
+  },
+  {
+    "revision": "2476c5546a8817ce7b9bd0806144f6ed",
     "url": "/index.html"
   },
   {
-    "revision": "ba8330fbcfe6ed45622d",
-    "url": "/js/app.dc75457b.js"
+    "revision": "a29093915fefcf0af03e",
+    "url": "/js/app.c91cdb0d.js"
   },
   {
     "revision": "a273f8c7b3ce0664b4cb",

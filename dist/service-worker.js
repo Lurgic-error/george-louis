@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f614da8b5f7c1a96c959a3d5b8dee5d9.js"
+  "/precache-manifest.f869f27209f369834b0e1febc0454e58.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "george-louis"});
